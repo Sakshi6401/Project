@@ -21,6 +21,7 @@ body {
 
 .navbar-brand {
   padding-top: 25px;
+  background:url('../images/main.png')no-repeat;
 }
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
@@ -36,6 +37,7 @@ body {
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
+  background:url('../images/main.png')no-repeat;
 }
 .navbar-brand p { /* Kosher cert */
   color: wheat;
