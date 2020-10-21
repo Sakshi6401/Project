@@ -401,6 +401,7 @@ h3.menu-item-title {
   #menu-tile, #specials-tile {
     width: 280px;
     margin: 0 auto 15px;
+    background: url('../images/HTML.png') no-repeat;
   }
 
   .col-xxs-12 {
@@ -410,6 +411,7 @@ h3.menu-item-title {
     padding-left: 15px;
     float: left;
     width: 100%;
+    background: url('../images/HTML.png') no-repeat;
   }
 }
 
