@@ -32,6 +32,7 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   line-height: .75;
+  background:url('../images/main.png')no-repeat;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
