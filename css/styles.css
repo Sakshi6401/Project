@@ -124,7 +124,7 @@ body {
   background-position: center;
 }
 #specials-tile {
-  background: url('../images/main.png')no-repeat;
+  background: url()no-repeat;
   background-position: center;
 }
 #menu-tile span, #specials-tile span, #map-tile span {
@@ -400,6 +400,7 @@ h3.menu-item-title {
     width: 280px;
     margin: 0 auto 15px;
     background: url('../images/HTML.png') no-repeat;
+     background:url('../images/main.png')no-repeat;
   }
 
   .col-xxs-12 {
