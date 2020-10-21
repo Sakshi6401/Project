@@ -21,7 +21,6 @@ body {
 
 .navbar-brand {
   padding-top: 25px;
-  background:url('../images/main.png')no-repeat;
 }
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
@@ -33,7 +32,6 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   line-height: .75;
-  background:url('../images/main.png')no-repeat;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
@@ -120,9 +118,11 @@ body {
 }
 #menu-tile:hover, #specials-tile:hover, #map-tile:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
+   background:url('../images/main.png')no-repeat;
 }
 #menu-tile {
-  background: url('../images/HTML.png') no-repeat;
+  /*background: url('../images/HTML.png') no-repeat;*/
+   background:url('../images/main.png')no-repeat;
   background-position: center;
 }
 #specials-tile {
