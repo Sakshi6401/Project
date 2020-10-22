@@ -111,7 +111,7 @@ body {
   border: 2px solid #3F0C1F;
 }
 
-#menu-tile, #specials-tile{
+#menu-tile, #specials-tile, #map-tile {
   height: 250px;
   width: 100%;
   margin-bottom: 15px;
@@ -119,18 +119,21 @@ body {
   border: 2px solid #3F0C1F;
   overflow: hidden;
 }
-#menu-tile:hover, #specials-tile:hover {
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
+  background:url('../images/main.png')no-repeat;
 }
 #menu-tile {
+  
   background: url('../images/HTML.png') no-repeat;
+  background: url('../images/Css.png') no-repeat;
   background-position: center;
 }
 #specials-tile {
   background: url('../images/Css.png') no-repeat;
   background-position: center;
 }
-#menu-tile span, #specials-tile span {
+#menu-tile span, #specials-tile span, #map-tile span {
   position: absolute;
   bottom: 0;
   right: 0;
