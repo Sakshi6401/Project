@@ -21,6 +21,7 @@ body {
 
 .navbar-brand {
   padding-top: 25px;
+  /*background:url('../images/main.png')no-repeat;*/
 }
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
@@ -32,9 +33,11 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   line-height: .75;
+  /*background:url('../images/main.png')no-repeat;*/
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
+  background:url('../images/main.png')no-repeat;
 }
 .navbar-brand p { /* Kosher cert */
   color: wheat;
@@ -118,13 +121,14 @@ body {
 }
 #menu-tile:hover, #specials-tile:hover, #map-tile:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
+  background:url('../images/main.png')no-repeat;
 }
 #menu-tile {
   background: url('../images/HTML.png') no-repeat;
   background-position: center;
 }
 #specials-tile {
-  background: url()no-repeat;
+  background: url('../images/Css.png') no-repeat;
   background-position: center;
 }
 #menu-tile span, #specials-tile span, #map-tile span {
@@ -273,7 +277,7 @@ h3.menu-item-title {
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   .container .jumbotron {
-    background: url('../images/main.png') no-repeat;
+    background: url() no-repeat;
     height: 675px;
   }
 }
@@ -400,7 +404,6 @@ h3.menu-item-title {
     width: 280px;
     margin: 0 auto 15px;
     background: url('../images/HTML.png') no-repeat;
-     background:url('../images/main.png')no-repeat;
   }
 
   .col-xxs-12 {
@@ -410,7 +413,6 @@ h3.menu-item-title {
     padding-left: 15px;
     float: left;
     width: 100%;
-    background: url('../images/HTML.png') no-repeat;
   }
 }
 
