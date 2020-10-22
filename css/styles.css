@@ -111,7 +111,7 @@ body {
   border: 2px solid #3F0C1F;
 }
 
-#HTML, #CSS{
+#menu-tile, #specials-tile{
   height: 250px;
   width: 100%;
   margin-bottom: 15px;
@@ -119,18 +119,18 @@ body {
   border: 2px solid #3F0C1F;
   overflow: hidden;
 }
-#HTML:hover, #CSS:hover {
+#menu-tile:hover, #specials-tile:hover {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
-#HTML {
+#menu-tile {
   background: url('../images/HTML.png') no-repeat;
   background-position: center;
 }
-#CSS {
+#specials-tile {
   background: url('../images/Css.png') no-repeat;
   background-position: center;
 }
-#HTML span, #CSS span {
+#menu-tile span, #specials-tile span {
   position: absolute;
   bottom: 0;
   right: 0;
